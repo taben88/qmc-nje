@@ -29,5 +29,5 @@ BC
 - positional arguments:
   - `MINTERMS`  The minterms of the function to minimize, seperated by white space.
 - options:
-  - `dc`  List of don't-care terms, seperated by white space.
-  - `nv`  The number of variables of the boolean function, if different from least number of variables needed to express the highest term.
+  - `-dc`  List of don't-care terms, seperated by white space.
+  - `-nv`  The number of variables of the boolean function, if different from least number of variables needed to express the highest term.
